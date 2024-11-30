@@ -1,0 +1,55 @@
+.rotate-icon i {
+    transform: rotate(180deg); /* Rotate to point left */
+  }
+  
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 10px 0;
+  }
+  
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-item span {
+    font-size: 16px;
+    color: #003580;
+    margin-top: 5px;
+  }
+
+  .nav-icon {
+    font-size: 24px;
+  }
+  
+  .nav-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-icon img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Responsive adjustments */
+  @media (min-width: 789px) {
+    .bottom-nav {
+      display: none; /* Hide bottom nav on larger screens */
+    }
+  }
+  

@@ -1,0 +1,102 @@
+/* .featured-jobs {
+    margin-top: 100px;
+  } */
+  
+  .featured-jobs h2 {
+    
+    font-size: 1.8rem;
+    text-align: center;
+    color: #362b9b;
+    margin-bottom: 20px;
+    
+  }
+  
+  .jobs-container {
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-evenly;
+    margin-left: 25px;
+    margin-right: 25px;
+    /* margin-top: 50px; */
+  }
+  
+  .remote-jobs{
+    margin-top: 4vh;
+    margin-bottom: 100px;
+  }
+  
+  /* Desktop: Show 4 cards per row */
+  @media (min-width: 1025px) {
+    .jobs-container {
+      grid-template-columns: repeat(4, 1fr); /* 4 cards */
+    }
+  }
+  
+  /* Laptop: Show 2 cards per row */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .jobs-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards */
+    }
+  }
+  
+  /* Tablet or Mobile: Show 1 card per row */
+  @media (max-width: 768px) {
+    .jobs-container {
+      grid-template-columns: 1fr; /* 1 card */
+    }
+  }
+  
+  /* Card styles */
+  .job-card {
+    position: relative;
+    border: 2px solid #ccc; /* Add border */
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    text-align:left;
+    margin-top: 10px;
+  }
+  
+  .job-card h3 {
+    font-size: 1.2rem;
+    color: #003580;
+    margin: 10px 0;
+  }
+
+  .job-type {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    background-color: #ffc107; 
+    color: #000;
+    font-size: 12px;
+    padding: 5px 15px;
+    font-weight: bold;
+    margin-right: 0;
+    border-radius: 0 0 0 50px;
+
+}
+  
+  .job-card p {
+    font-size: 0.9rem;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .job-card .location {
+    font-weight: bold;
+    color: #007bff;
+  }
+  .apply{
+    width: 100%;
+    padding: 5px;
+    background-color: #00b7b7;
+    border: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+
+  

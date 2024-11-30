@@ -1,0 +1,174 @@
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #003580;
+    color: white;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #ffcc00;
+  }
+  
+  .logo span {
+    color: white;
+  }
+  
+  .logo p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .login-btn {
+    background-color: #ffcc00;
+    color: #003580;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  } */
+
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #003580;
+    color: white;
+    position:sticky;
+    width: 100%;
+    top: 0;
+    height: 80px;
+    z-index: 1000;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #ffcc00;
+  }
+  
+  .logo span {
+    color: white;
+  }
+  
+  .logo p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .login-btn2 {
+    background-color: #ffcc00;
+    color: #003580;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+  }
+
+  .login-btn1 {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+  }
+
+ 
+div .login-btn1:hover {
+        background-color: #ffcc00;
+        
+  }
+
+  div .login-btn2:hover {
+    background-color:rgb(119, 121, 123);
+    color: white;
+}
+
+
+
+  
+  /* Hamburger menu for mobile */
+  .hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 789px) {
+    nav {
+      display: none;
+      flex-direction: column;
+      background-color: #003580;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    nav.open {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+
+  .bring-job span{
+       color: #ffcc00;
+  }
+  
+
+  
+  
